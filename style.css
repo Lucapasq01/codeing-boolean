@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+/* inserimento immagine di sfondo*/
+body{
+  background-image:url(background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* specifiche della parte sfumata */
+.sfumato{
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin:auto;
+}
+/* distanza tra i bordi e gli elementi all'interno del conteiner */
+.container{
+  padding: 70px;
+}
+/* specifiche del logo */
+.logo{
+  display: block;
+  margin:auto;
+  width: 25%;
+}
+/* selezione di tutti gli h1 che hanno come classe header */
+header > h1{
+  text-align: center;
+  color: #66FF00;
+}
+/* specifiche del nav */
+nav{
+  box-sizing: content-box;
+  background-color: #32CD32;
+  text-align: center;
+  padding: 10px;
+}
+/*selezione di ogni button che ha come classe selector e ogni input che ha come classe selector */
+button, .selector>input{
+  cursor: pointer;
+}
+/* Colore del selector */
+.selector, .info{
+color:#ffffff;
+}
+/* Colore del testo delle liste */
+.info:before{
+  content: '\21A6';
+}
+/* la classe selector dispone gli elementi allineati */
+.selector h2{
+  display: inline;
+}
+/* specifiche della lunghezza e del colore delle cariche restanti */
+.barra1{
+  width: 200px;
+  background-color:#FFA500 ;
+}
+.barra2{
+  width: 450px;
+  background-color:#00C957;
+}
+.barra3{
+  width: 110px;
+  background-color:#FF3030;
+}
+/*specifica altezza e arrotondamento dei bordi delle cariche restanti */
+.barra1, .barra2, .barra3{
+  height: 25px;
+  border-radius: 4px;
+}
+
+.selector{
+  padding: 15px 15px;
+}
